@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style>
+        body {
+          width: 1000px;
+          height: 100vh;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        .background {
+          display: flex;
+          background-color: gray;
+          width: 800px;
+          background-size: cover;
+          background-image:linear-gradient(rgba(102, 101, 101, 0.322), rgba(102, 102, 102, 0.5)), url('https://img.ibxk.com.br/2015/09/18/18181849082658.jpg');
+          background-position: center;
+          background-repeat: no-repeat;
+          flex-direction: column;
+          align-items: center;
+        }
+      
+        .person {
+          width: 500px;
+          height: 500px;
+          border: solid 1px greenyellow;
+          margin-top: 50px;
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+        .person div {
+          width: 95%;
+          height: 95%;
+          border: solid 2px greenyellow;
+          border-radius: 100%;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+      
+        .image {
+          height: 90%;
+          width: 90%;
+          object-fit: cover;
+          border-radius: 100%;
+        }
+      
+        .button {
+          width: 30%;
+          height: 50px;
+          margin-top: 50px;
+          margin-bottom: 50px;
+          border: 2px solid white;
+          border-radius: 20px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: large;
+          color: white;
+          font-family: 'Courier New', Courier, monospace;
+          cursor: pointer;
+        }
+        .mensagem{
+          margin-top: 50px;
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 3em;
+          color: white;
+          font-family: 'Courier New', Courier, monospace;
+        }
+        .mensagem2{
+          display: flex;
+          justify-content: center;
+          align-items: center;
+          font-size: 1em;
+          color: white;
+          font-family: 'Courier New', Courier, monospace;
+        }
+      
+        .button:active{
+         
+          margin-top: 48px;
+        }
+      
+        .bottom-button {
+          margin-top: 20px;
+          width: 80%;
+          height: 120px;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-around;
+          align-items: center;
+        }
+        .bt-1 {
+          width: 120px;
+          height: 120px;
+          border-radius: 100%;
+          background-color: blue;
+        }
+      
+      
+      </style>
+  </head>
+  <body>
+    <section class="background">
+      <div class="person">
+        <div>
+          <div>
+            <img src="https://api.time.com/wp-content/uploads/2017/12/terry-crews-person-of-year-2017-time-magazine-facebook-1.jpg?quality=85" class="image" />
+          </div>
+        </div>
+
+      </div>
+      <div class ="mensagem">Convidado</div>
+      <div class ="mensagem2">Está pedindo autorização para entrar</div>
+      <div class="button" onclick="">FALAR COM O PORTEIRO</div>
+     
+      <div class="bottom-button">
+        <div onclick="">
+          <img src="img/icone4.png"/>
+        </div onclick="">
+          <img src="img/icone5.png"/>
+          
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
+

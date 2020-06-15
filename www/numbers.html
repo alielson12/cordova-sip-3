@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+  <meta http-equiv="Content-Security-Policy"content="script-src * data: https://ssl.gstatic.com 'unsafe-inline' 'unsafe-eval'; style-src 'self' 'unsafe-inline'; media-src *; img-src 'self' data: content:;">
+  <meta name="format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <meta name="viewport" content="initial-scale=1, width=device-width, viewport-fit=cover">
+    
+<style>
+  button:active{
+    background-color:rgb(33, 243, 138);
+  }
+    
+.grid-container {
+
+  margin-top: 0px;
+  margin-bottom: 0px;
+  margin-right: 500px;
+  margin-left: 500px;
+  display: grid;
+  justify-content: center;
+  grid-template-columns: auto auto auto;
+  background-color: rgb(255, 255, 255);
+  padding: 10;
+}
+.grid-item {
+  
+  background-color: rgba(255, 255, 255, 0.8);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-color: rgb(33, 243, 138);
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Courier;
+  color: #999;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+}
+.grid-item-telefone {
+  background-color: rgb(33, 243, 138);
+  border: 1px solid rgba(0, 0, 0, 0.8);
+  border-color: rgb(33, 243, 138);
+  border-radius: 100px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+  margin-left: 10px;
+  font-family: Courier;
+  color: #999;
+  padding: 20px;
+  font-size: 30px;
+  text-align: center;
+  
+}
+
+</style>
+
+</head>
+
+<body>
+
+
+<div class="grid-container">
+
+  <button class="grid-item"id="1" >1</button>
+  <button class="grid-item"id="2" >2</button>
+  <button class="grid-item"id="3" >3</button>
+  <button class="grid-item"id="4" >4</button>
+  <button class="grid-item"id="5" >5</button>
+  <button class="grid-item"id="6" >6</button>
+  <button class="grid-item"id="7" >7</button>
+  <button class="grid-item"id="8" >8</button>
+  <button class="grid-item"id="9" >9</button>
+  <button class="grid-item"id="*" >*</button>
+  <button class="grid-item"id="0" >0</button>
+  <button class="grid-item"id="#" >#</button>
+  <button class="grid-item"id="list"><img src="img/icone1.png"/></button>
+  <button class="grid-item-telefone"id="call"><img src="img/icone2.png"/></button>
+  <button class="grid-item"id="back"><img src="img/icone3.png"/></button>
+
+</div>
+
+
+  <script type="text/javascript" src="cordova.js"></script>
+
+  <script type=text/javascript src="js/index.js"></script>
+  
+</body>
+
+</html>
